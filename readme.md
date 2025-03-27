@@ -1,5 +1,7 @@
 # Local LDA for face recognize
 
+[Reference paper](https://ieeexplore.ieee.org/document/1388259).
+
 ## 1. Introduction
 
 This repository contains Python code for dimensionality reduction and classification tasks, specifically focusing on face data. The implemented algorithms include Locality - Preserving Discriminant Analysis with Gaussian Mixture Model (LLDA_GMM), Locality - Preserving Discriminant Analysis with K - Means (LLDA_KMeans), Linear Discriminant Analysis (LDA), and Kernel - based Linear Discriminant Analysis (KernelLDA). These algorithms are used to reduce the dimensionality of face data and then classify it using a K - Nearest Neighbors (KNN) classifier.
