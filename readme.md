@@ -7,6 +7,7 @@ This repository contains Python code for dimensionality reduction and classifica
 ## 2. Prerequisites
 
 Python: The code is written in Python. It is recommended to use Python 3.6 or higher.
+
 Libraries:
 numpy: Fundamental package for scientific computing with Python.
 scikit - learn: Machine learning library in Python, used for various tasks like data splitting, clustering, discriminant analysis, and classification.
@@ -15,11 +16,11 @@ matplotlib: Library for creating visualizations, used to plot eigenvalues and ac
 
 ## 3. Excecution
 
-**For simulated data**: run ***.py
+**For simulated data**: run numeric_simulation.ipynb
 
 **For Olivett data and FERET dataset** face recognition:
 
-run FERET2jpg.m in matlab first to transform the photos to .jpg format;
+run FERET2jpg.m in matlab firstly to transform the photos to .jpg format;
 
 then run LLDA_V3.ipynb for LLDA models.
 
